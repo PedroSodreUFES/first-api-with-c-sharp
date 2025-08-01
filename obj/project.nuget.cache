@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+vvk46GHw9V8sKYSZ4hzOYC9jJnWVOa3jUk5404gFBcMyXMEf1G/AaE0EC+4cLAhxVNhvIEyl9XC+xkXGDaiVw==",
+  "success": true,
+  "projectFilePath": "/home/pedro/trabalhos/rocketseat/c#/03-first-api/03-first-api.csproj",
+  "expectedPackageFiles": [
+    "/home/pedro/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/pedro/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/pedro/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
