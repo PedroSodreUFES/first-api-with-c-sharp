@@ -1,13 +1,14 @@
 namespace MyFirstApi.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using MyFirstApi.Entities;
 
-[Route("api/[controller]")]
-[ApiController]
-public class DeviceController : ControllerBase
+public class DeviceController : MyFirstApiBaseController
 {
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Laptop.");
+        var key = this.GetCustomKey();
+
+        return Ok(key);
     }
 }

@@ -1,13 +1,10 @@
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using MyFirstApi.Communication.Requests;
 using MyFirstApi.Communication.Responses;
 
 namespace MyFirstApi.Controllers;
 
-[Route("api/[controller]")]
-[ApiController]
-public class UserController : ControllerBase
+public class UserController : MyFirstApiBaseController
 {
     [HttpGet]
     [Route("{id}")]
@@ -66,7 +63,9 @@ public class UserController : ControllerBase
             new User { Id = 2, Name = "Letícia", Age = 21}
         };
 
-        return Ok(response);
+        var key = this.GetCustomKey();
+
+        return Ok(key);
     }
 
     [HttpPut("change-password/")]
